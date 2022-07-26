@@ -17,7 +17,7 @@ body{
 	background:#FFFFFF;
 }
 .banner{
-	background: url(../images/valo2.PNG) no-repeat 0px 0px;
+	background: url(../images/valofr.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .agileinfo-dot{
@@ -345,6 +345,7 @@ body{
     padding: 4em 0;
 }
 .welcome{
+	/* background-color: black; */
     border-bottom: 1px dashed #ccc;
     padding-bottom: 1em;
 	text-align:center;
@@ -367,7 +368,7 @@ body{
     margin: 4em 0 0 0;
 }
 .w3about-img {
-    background: url(../images/2.jpg)no-repeat 0px 0px;
+    background: url(../images/2ab.jpg)no-repeat 0px 0px;
     background-size: cover;
     min-height: 30em;
     padding: 0;
@@ -395,7 +396,7 @@ body{
 /*-- //about--*/
 /*-- markets --*/
 .markets{
-	background: #ececec;
+	background: linear-gradient(to right, rgb(97, 18, 18) , rgb(40, 11, 85));
 }
 .wthree-heading h3,.agileits-top-heading h2 {
     color: #212121;
@@ -411,10 +412,29 @@ body{
 .markets-grids,.agileits-feedback-grids,.w3-agileits-newsletter,.team-grids,.agile-contact-form,.w3-agile-testimonial,.wthree-blog-grids,.w3_mail_grids,.agileits-team-grids{
     margin: 4em 0 0 0;
 }
-.agileits-icon-grid {
+.agileits-icon-grid1 {
     padding: 2em;
-    background: #FFFFFF;
-    box-shadow: 0 0px 1px rgb(107, 107, 107), 0 1px 2px rgba(0,0,0,.24);
+    /* background: #c73232; */
+	background-image: url('../images/cscrims1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: 1 1px 1px rgb(107, 107, 107), 0 1px 2px rgba(0,0,0,.24);
+}
+.agileits-icon-grid2 {
+    padding: 2em;
+    /* background: #c73232; */
+	background-image: url('../images/cscrim2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: 1 1px 1px rgb(107, 107, 107), 0 1px 2px rgba(0,0,0,.24);
+}
+.agileits-icon-grid3 {
+    padding: 2em;
+    /* background: #c73232; */
+	background-image: url('../images/cscrim3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: 1 1px 1px rgb(107, 107, 107), 0 1px 2px rgba(0,0,0,.24);
 }
 .icon-left{
 	float: none;
@@ -423,10 +443,10 @@ body{
     text-align: center;
     padding: 1.2em 0 0 0;
     margin: 0 auto 1em;
-    background: #ff9800;
+    /* background: #ff9800; */
 }
 .icon-left i.fa{
-    color: #FFFFFF;
+    color: #e6d9d9;
     font-size: 2em;
 }
 .icon-right{
@@ -435,16 +455,17 @@ body{
     text-align: center;
 }
 .icon-right h5{
-    color: #212121;
-    font-size: 1em;
+    color: #cf1e1e;
+    font-size: 1.3em;
     margin: 0;
     font-weight: 700;
+	text-shadow: 2px 1px 2px white;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 .icon-right p{
-	color: #999999;
-    font-size: .9em;
+	color: #f5f3f3;
+    font-size: 1em;
     margin: 1em 0 0 0;
     line-height: 1.8em;
 }
