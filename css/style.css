@@ -20,6 +20,10 @@ body{
 	background: url(../images/valofr.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
+.baner{
+	background: url(../images/val33.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
 .agileinfo-dot{
     background: url(../images/dott.png)repeat 0px 0px;
     background-size: 2px;
@@ -396,7 +400,7 @@ body{
 /*-- //about--*/
 /*-- markets --*/
 .markets{
-	background: linear-gradient(to right, rgb(97, 18, 18) , rgb(40, 11, 85));
+	background: linear-gradient(to right, rgb(50, 97, 18) , rgb(11, 55, 85));
 }
 .wthree-heading h3,.agileits-top-heading h2 {
     color: #212121;
