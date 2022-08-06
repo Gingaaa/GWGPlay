@@ -1345,6 +1345,15 @@ ul.simplefilter {
 }
 /*-- //to-top --*/
 /*-- responsive --*/
+@media only screen and (min-width: 1196px){
+	.dlg{
+		margin-left: auto;
+		margin-right: auto;
+		/* float: center; */
+		/* text-align: center; */
+		/* justify-content: center; */
+	}
+}
 @media(max-width:1080px){
 	.w3about-text {
 		width: 63%;
