@@ -1349,9 +1349,6 @@ ul.simplefilter {
 	.dlg{
 		margin-left: auto;
 		margin-right: auto;
-		/* float: center; */
-		/* text-align: center; */
-		/* justify-content: center; */
 	}
 }
 @media(max-width:1080px){
@@ -1438,6 +1435,16 @@ ul.simplefilter {
 	.portfolio figcaption h3 {
 		margin-top: 100px;
 	}
+	.dlg{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media(min-width:772px) and (max-width:992px){
+	.dlg{
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 @media(max-width:736px){
 	.agileits-logo h1 a {
@@ -1487,6 +1494,15 @@ ul.simplefilter {
 	}
 	.navbar-nav > li > a {
 		margin: 1em .5em;
+	}
+}
+@media(min-width:736px) and (max-width:770px){
+	.abt{
+		width: 75%;
+	}
+	.dlg{
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media(max-width:667px){
